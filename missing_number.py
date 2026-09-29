@@ -23,5 +23,6 @@ print(Solution().missingNumber([3, 0, 1]))  # Output: 2
 print(Solution().missingNumber([0, 1]))     # Output: 2
 print(Solution().missingNumber([9,6,4,2,3,5,7,0,1]))  # Output: 8
 print(Solution().missingNumber([0]))        # Output: 1 because the only number present is 0, so the missing number is 1.
-print(Solution().missingNumber([1]))        # Output: 0 because the only number present is 1, so the missing number is 0.
-print(Solution().missingNumber.num_dict)   # Output: {3: True, 0: True, 1: True}
+print(Solution().missingNumber([1]))        # Output: 0 because the only number present is 1, so the missing number is 0.  # Output: {3: True, 0: True, 1: True}
+print(Solution().missingNumber([0, 1, 2, 3, 4, 5, 6, 7, 8]))  # Output: 9 because all numbers from 0 to 8 are present, so the missing number is 9.
+print(Solution().missingNumber([0, 1, 2, 3, 4, 5, 6, 7, 8, 9]))  # Output: 10 because all numbers from 0 to 9 are present, so the missing number is 10.
